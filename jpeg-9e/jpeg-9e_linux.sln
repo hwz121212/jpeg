@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdpart
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjpeg", "thirdparty\jpeg-9e\libjpeg_linux.vcxproj", "{791642ED-9E59-4F42-927B-3562F869D9C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_lib", "0_lib", "{9DC4E87D-7352-4BC0-9A3D-35BE4039CAEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_dll", "1_dll", "{5E02248E-AE53-4804-B792-DB1F4ECE9973}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpeg", "thirdparty\jpeg-9e\jpeg_linux.vcxproj", "{2D8A1D7C-AF4C-4714-B0BC-DAB58AA3A563}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -17,12 +23,19 @@ Global
 		{791642ED-9E59-4F42-927B-3562F869D9C1}.Debug|x64.Build.0 = Debug|x64
 		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.ActiveCfg = Release|x64
 		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.Build.0 = Release|x64
+		{2D8A1D7C-AF4C-4714-B0BC-DAB58AA3A563}.Debug|x64.ActiveCfg = Debug|x64
+		{2D8A1D7C-AF4C-4714-B0BC-DAB58AA3A563}.Debug|x64.Build.0 = Debug|x64
+		{2D8A1D7C-AF4C-4714-B0BC-DAB58AA3A563}.Release|x64.ActiveCfg = Release|x64
+		{2D8A1D7C-AF4C-4714-B0BC-DAB58AA3A563}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{791642ED-9E59-4F42-927B-3562F869D9C1} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {9DC4E87D-7352-4BC0-9A3D-35BE4039CAEA}
+		{9DC4E87D-7352-4BC0-9A3D-35BE4039CAEA} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{5E02248E-AE53-4804-B792-DB1F4ECE9973} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{2D8A1D7C-AF4C-4714-B0BC-DAB58AA3A563} = {5E02248E-AE53-4804-B792-DB1F4ECE9973}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
